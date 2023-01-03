@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 
@@ -23,3 +24,18 @@ function App() {
 }
 
 export default App;
+=======
+import Header from "./Header";
+import Login from "./Login";
+import Logo from "./Logo";
+function App() {
+  return (
+    <div className='page'>
+      <Header />
+      <Login />
+      <Logo />
+    </div>
+  );
+}
+export default App;
+>>>>>>> 64ed172ff5b61dcc1e07da0249b4c9acc7dad7d7
