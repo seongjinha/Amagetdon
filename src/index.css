@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-=======
 /* common */
 * {margin: 0; padding: 0;}
 a {text-decoration: none; color: #666;}
@@ -55,4 +40,3 @@ ul, li {list-style: none;margin: 0; padding: 0; }
 .login .sns-login-item {width: 25%;}
 .login .sns-login-item a {display: flex; flex-direction: column; align-items: center;}
 .login .sns-login-item a svg {width: 50%; margin-bottom: 12px;}
->>>>>>> 64ed172ff5b61dcc1e07da0249b4c9acc7dad7d7
