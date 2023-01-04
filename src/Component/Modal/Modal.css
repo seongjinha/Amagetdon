@@ -1,0 +1,11 @@
+.modal {display: block; background-color: rgba(0, 0, 0, 0.5);}
+.overlay {position: fixed; width: 100vw; height: 100vh; top: 0; left: 0; right: 0; bottom: 0;}
+.modal .modal-content {position: absolute; bottom: 0; padding: 32px 32px 64px; border: none; border-radius: 16px 16px 0 0;}
+.modal .modal-title {text-align: center; font-size: 28px; font-weight: 700; margin-bottom: 28px;}
+.modal .sign-up {display: flex; justify-content: center; align-items: center; border-radius: 8px; margin-bottom: 16px; height: 56px; color: #000; font-weight: 500; font-size: 17px;}
+.modal .sign-up.kakao {background-color: #FBE300;}
+.modal .sign-up.google {background-color: #fff; border: 1px solid #999;}
+.modal .sign-up.apple {background-color: #000; color: #fff;}
+.modal hr {margin: 0 0 16px 0;}
+.modal .sign-up.email {background-color: #E2E2E2; font-weight: bold;}
+.modal .sign-up svg {width: 20px; margin-right: 6px;}
