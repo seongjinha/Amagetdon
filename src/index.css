@@ -8,23 +8,19 @@ ul, li {list-style: none;margin: 0; padding: 0; }
 .input::placeholder {color: #999;}
 .error-message-wrap {font-size: 12px; color: #FF3C3C;}
 .btn-box {display: flex; justify-content: space-between; margin-top: 20px; height: 48px;}
-.btn, .btn:hover, .btn:active {width: 100%; background-color: #9e30f4; color: #fff; height: 100%;}
-.btn.disabled, .btn:disabled, fieldset:disabled .btn {background-color: #E2E2E2; color: #666;}
-
+.btn, .btn:hover, .btn:active, .btn-check:checked+.btn, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {width: 100%; background-color: #9E30F4; color: #fff; height: 100%;}
+.btn:disabled {background-color: #E2E2E2; color: #A3A3A3;}
 /* page */
 .page {display: flex; flex-direction: column; max-width: 1024px; margin: 0 auto; }
-
 /* logo */
 .logo-box {display: flex; justify-content: center;}
-
 /* header */
 .header {display: flex; align-items: center;padding: 10px;}
 .header .back {height: 24px;}
 .header .back svg {width: 16px;margin-top: -4px;}
 .header .header-title {font-size: 16px; margin: 0 0 0 16px;}
-
 /* login */
-.login {padding: 30px;}
+.login {padding: 32px;}
 .login .logo {width: 40px; margin-bottom: 20px;}
 .login .title-login {margin-bottom: 60px; font-size: 32px; font-weight: 700; word-break: keep-all;}
 .login .content-wrap {display: flex;flex-direction: column;}
@@ -37,6 +33,7 @@ ul, li {list-style: none;margin: 0; padding: 0; }
 .login .sns-login-title::before {margin-right: 12px;}
 .login .sns-login-title::after {margin-left: 12px;}
 .login .sns-login-list {display: flex; justify-content: center; gap: 4%;}
-.login .sns-login-item {width: 25%;}
+.login .sns-login-item {width: 20%;}
 .login .sns-login-item a {display: flex; flex-direction: column; align-items: center;}
-.login .sns-login-item a svg {width: 50%; margin-bottom: 12px;}
+.login .sns-login-item a svg {width: 50%; height: 9vw;}
+.login .sns-login-item .kakao {display: flex; justify-content: center; align-items: center; border-radius: 50%; background-color: #FBE300;}
