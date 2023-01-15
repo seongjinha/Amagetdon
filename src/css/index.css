@@ -35,5 +35,5 @@ ul, li {list-style: none;margin: 0; padding: 0; }
 .login .sns-login-list {display: flex; justify-content: center; gap: 4%;}
 .login .sns-login-item {width: 20%;}
 .login .sns-login-item a {display: flex; flex-direction: column; align-items: center;}
-.login .sns-login-item a svg {width: 50%; height: 60px;}
+.login .sns-login-item a svg {width: 50%; height: 9vw;}
 .login .sns-login-item .kakao {display: flex; justify-content: center; align-items: center; border-radius: 50%; background-color: #FBE300;}
