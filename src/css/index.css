@@ -11,11 +11,7 @@ ul, li {list-style: none;margin: 0; padding: 0; }
 .btn, .btn:hover, .btn:active, .btn-check:checked+.btn, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {width: 100%; background-color: #9E30F4; color: #fff; height: 100%;}
 .btn:disabled {background-color: #E2E2E2; color: #A3A3A3;}
 /* page */
-<<<<<<< HEAD:src/index.css
-.page {display: flex; flex-direction: column; max-width: 1024px; margin: 0 auto; }
-=======
 .page {display: flex; flex-direction: column; max-width: 390px; margin: 0 auto; }
->>>>>>> e1baec1bfc8a68cc184493e0f2c05c57865f9c0d:src/css/index.css
 /* logo */
 .logo-box {display: flex; justify-content: center;}
 /* header */
@@ -39,9 +35,5 @@ ul, li {list-style: none;margin: 0; padding: 0; }
 .login .sns-login-list {display: flex; justify-content: center; gap: 4%;}
 .login .sns-login-item {width: 20%;}
 .login .sns-login-item a {display: flex; flex-direction: column; align-items: center;}
-<<<<<<< HEAD:src/index.css
-.login .sns-login-item a svg {width: 50%; height: 9vw;}
-=======
 .login .sns-login-item a svg {width: 50%; height: 60px;}
->>>>>>> e1baec1bfc8a68cc184493e0f2c05c57865f9c0d:src/css/index.css
 .login .sns-login-item .kakao {display: flex; justify-content: center; align-items: center; border-radius: 50%; background-color: #FBE300;}
